@@ -54,10 +54,10 @@ git clone https://github.com/yourusername/medcare.git
 cd medcare
 
 
-**2. Install Dependencies**
+### 2. Install Dependencies
 npm install
 
-**3. Create a .env File**
+### 3. Create a .env File
 Add your Google Fit API credentials:
 
 
@@ -65,8 +65,8 @@ CLIENT_ID=your_google_client_id
 CLIENT_SECRET=your_google_client_secret
 REDIRECT_URI=http://localhost:3000/auth/google/callback
 
-**4. Run the Server**
+### 4. Run the Server
 node server.js
 
-**5. Open in Browser**
+### 5. Open in Browser
 http://localhost:3000
